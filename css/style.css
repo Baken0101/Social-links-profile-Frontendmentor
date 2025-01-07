@@ -15,7 +15,7 @@ body {
     align-items: center;
     background-color: var(--grey-900);
     height: 100vh;
-    margin: 0;
+    margin: auto;
     font-size: 14px;
     font-family: "Inter", serif;
 }
