@@ -72,7 +72,7 @@ body {
 
 .description {
     color: rgb(168, 168, 168);
-    font-weight: 600 ;
+    font-weight: 700 ;
 }
 
 
@@ -91,12 +91,20 @@ body {
 }
 
 .social li a button {
+    transition: 0.5s;
     background-color: var(--grey-700) ;
     color: white;
+    font-weight: 600;
     width: 100%;
     border-radius: 0.5rem;
     border: none;
     padding: 1rem 0rem;
+}
+
+.social li a button:hover{
+    transition: 0.5s;
+    background-color: var(--green);
+    color: rgb(44, 168, 117) ;
 }
 
 @media screen and (max-width: 376px) {
