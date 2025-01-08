@@ -104,7 +104,7 @@ body {
 .social li a button:hover{
     transition: 0.5s;
     background-color: var(--green);
-    color: rgb(44, 168, 117) ;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 @media screen and (max-width: 376px) {
